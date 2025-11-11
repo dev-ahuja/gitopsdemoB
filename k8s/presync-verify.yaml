@@ -20,7 +20,7 @@ spec:
             - "--certificate-oidc-issuer"
             - "https://token.actions.githubusercontent.com"
             - "--certificate-identity-regexp"
-            - "https://github.com/dev-ahuja/lab1/.+"
+            - "https://github.com/dev-ahuja/lab1/.*"
             - "__IMAGE_REF__"
           env:
             - name: COSIGN_EXPERIMENTAL
