@@ -23,7 +23,7 @@ spec:
             - "https://token.actions.githubusercontent.com"
             - "--certificate-identity-regexp"
             - "https://github.com/dev-ahuja/gitopsdemoB/.*"
-            - "__IMAGE_REF__"
+            - docker.io/devenderahuja936/gitops-demo-app@sha256:48bd11d9a728d445810b2e49c2f2e4a03c88e7fa9d984ecfb1b221ad71f6a88d
           env:
             - name: COSIGN_EXPERIMENTAL
               value: "true"
