@@ -5,7 +5,7 @@ metadata:
   namespace: gitops-demo
 spec:
   selector:
-    app: demo-app
+    app: demo-appp
   ports:
     - name: http
       port: 80
