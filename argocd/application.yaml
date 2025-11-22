@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: gitops-secure-demo
-  namespace: argocd
+  namespace: argocdd
 spec:
   project: default
   source:
@@ -11,7 +11,7 @@ spec:
     path: .
   destination:
     server: https://kubernetes.default.svc
-    namespace: gitops-demo
+    namespace: gitops-demoo
   syncPolicy:
     automated:
       prune: true
